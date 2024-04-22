@@ -1,0 +1,29 @@
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box .item {
+    width: 540px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 30px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+}
+.item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.item h5 {
+    color: #fff;
+}

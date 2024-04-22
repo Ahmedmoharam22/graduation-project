@@ -1,0 +1,57 @@
+.hero-banner {
+    background: linear-gradient(0deg , rgba(0 , 0 , 0, 0.8) 0% , rgba(0 , 0, 0, 0.8) 100%) , url(./assets/Hero-Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .hero--content {
+        width: 100%;
+        padding-inline: 1.5rem;
+        margin: auto;
+        .content  {
+            h2 {
+                font-size: 3.4rem;
+                margin-bottom: 0.25rem;
+            }
+            p {
+                font-size: 1rem;
+                font-weight: 500;
+                width: 100%;
+                margin: auto;
+                line-height: 1.7;
+            }
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.6rem;
+           a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $main-color;
+            width: fit-content;
+            margin-top: 0.3rem;
+            padding: 0.8rem 2rem;
+            border-radius: 1.425rem;
+           }
+        }
+    }
+}
+
+@media (min-width:1024px) {
+    .hero-banner {
+        .hero--content {
+            width: 70%;
+            .content {
+                p {
+                    width: 70%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.mobileMenu {
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    position: fixed;
+    background-color: $secondary-color;
+    transform: translateY(10deg);
+    transform-origin: top left;
+    transition: 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.active {
+        transform: none;
+        top: 0;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        line-height: 3;
+    }
+    a {
+        font-size: 1.7rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: 0.4s ease-in-out;
+        &.active {
+            color: $main-color;
+        }
+        &:hover {
+            color: $main-color;
+        }
+        
+    }
+
+}

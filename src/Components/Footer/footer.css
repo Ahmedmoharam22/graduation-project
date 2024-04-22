@@ -1,0 +1,25 @@
+
+
+.footer {
+    text-align: center;
+    background-color: var(--main-color);
+    padding: 20px; /* إضافة تباعد داخلي لل footer */
+}
+
+.footer-title {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px; /* تباعد بين العنوان والرموز */
+}
+
+.footer-icons svg {
+    margin: 0 5px; /* تقليل التباعد بين الرموز */
+    font-size: 18px; /* تقليل حجم الرموز لتناسب الشاشات الصغيرة */
+    color: #000;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-icons svg {
+        font-size: 22px; /* زيادة حجم الرموز للشاشات الكبيرة */
+    }
+}

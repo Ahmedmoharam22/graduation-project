@@ -1,0 +1,116 @@
+.oilProduct {
+  overflow-x: hidden !important;
+}
+
+/* oilProduct_hero */
+
+.oilProduct_hero {
+  width: 100vw;
+  min-height: 90vh;
+  position: relative;
+  display: flex;
+  margin-bottom: 5rem;
+  padding: 0 0 3rem 0;
+}
+
+.oilProduct_hero_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -10;
+}
+
+.oilProduct_title_text {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: start;
+}
+
+.oilProduct_title {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  direction: ltr;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .oilProduct_title {
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+
+.oilProduct_title_Img {
+  width: fit-content;
+  height: 374px;
+}
+
+.oilProduct_title_h1 {
+  color: white;
+  text-align: start;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.oilProduct_title_span {
+  color: black;
+}
+
+.btn-oilProducts {
+  padding: 1rem 5rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: bold;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.oilProduct_title_subtitle {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 1rem;
+}
+
+/* card */
+
+.flex_OilProducts {
+  display: flex;
+  gap: 10rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.card {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card_img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+.card_btn {
+  color: green;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+/* لعناوين الصفحة والنصوص */
+.content h2 {
+  color: #FFE453;
+  font-size: 4vw; /* تعديل الحجم باستخدام vw */
+  font-weight: 700;
+}
+
+.content p {
+  color: #fff;
+  font-size: 2vw; /* تعديل الحجم باستخدام vw */
+  font-weight: 500;
+  margin-top: 1vw; /* تعديل الهوامش باستخدام vw */
+}
+
+/* لحقول الإدخال */
+.input-field input {
+  border: 0;
+  outline: 0;
+  width: 50vw; /* تعديل العرض باستخدام vw */
+  height: 5vw; /* تعديل الارتفاع باستخدام vw */
+  border-radius: 10vw; /* تعديل شكل الحقل باستخدام vw */
+  padding: 2vw; /* تعديل التباعد الداخلي باستخدام vw */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.input-field input::placeholder {
+  color: #000;
+}

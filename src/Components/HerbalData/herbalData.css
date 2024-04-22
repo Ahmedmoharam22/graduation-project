@@ -1,0 +1,76 @@
+
+.herbal-treatment , 
+.treatment-dises {
+    width: 350px;
+    height: 208px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 16.93px;
+    margin: 40px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.herbal-treat-image ,
+.treating-dises-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 16.93px;
+}
+.herbal-treat-title ,
+.treating-dises-title {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.categories-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* للسماح بالانتقال للأسفل عندما يصبح العرض ضيقاً */
+}
+
+.cat-box a {
+  text-decoration: none;
+  background-color: #8e8e8e;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 25px;
+  margin-bottom: 10px; /* تضاف هذه الهامش للفواصل بين العناصر */
+  flex: 0 1 calc(50% - 20px); /* تحديد عرض العناصر على أن تكون نصف عرض الشاشة مع هامش بينها */
+}
+
+@media (min-width: 1024px) {
+  .cat-box a {
+    flex: 0 1 calc(25% - 20px); /* تعديل عرض العناصر عندما يكون عرض الشاشة أكبر من 1024 بيكسل */
+  }
+}
+*/ .cat-box a {
+  text-decoration: none;
+  background-color: #8e8e8e;
+  color: #fff;
+  padding: 10px 17px;
+  border-radius: 25px;
+  margin-bottom: 10px; /* تحديد المسافة بين كل عنصر */
+  flex: 0 1 calc(50% - 20px); /* تحديد عرض العناصر */
+}
+
+@media (min-width: 768px) {
+  .cat-box a {
+    flex: 0 1 calc(33.33% - 20px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cat-box a {
+    flex: 0 1 calc(25% - 20px);
+  }
+}
+
+/* زيادة المسافات بين العناصر على شاشات الهواتف المحمولة */
+@media (max-width: 767px) {
+  .cat-box a {
+    margin-bottom: 15px; /* زيادة المسافة بين كل عنصر لشاشات الهواتف المحمولة */
+  }
+}
